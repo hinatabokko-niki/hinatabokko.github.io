@@ -35,12 +35,12 @@ li {
   text-align: center;
  }
  p {
-    font-family: "Yu Mincho";
-    color: #2F4F4F;
-    margin: 30px;
+   @media(max-width: 670px)
+   width: 100%;
    font-size: 25px;
+   font-family: "Yu Mincho";
+   color: #2F4F4F;
+   margin: 30px;
    text-align: center;
    padding: 10px;
-   @media(max-width: 670px)
-     width: 100%;
  }
