@@ -35,8 +35,6 @@ li {
   text-align: center;
  }
  p {
-   @media(max-width: 670px)
-   width: 100%;
    font-size: 25px;
    font-family: "Yu Mincho";
    color: #2F4F4F;
